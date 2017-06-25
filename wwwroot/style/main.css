@@ -1,0 +1,77 @@
+/*
+ * moltencopper.com
+ */
+
+body {
+    color: black;
+    background-color: lightsteelblue;
+    font-family: Verdana;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* id styles */
+
+#loginform {
+    padding: 8px;
+    margin-bottom: -16px;
+}
+
+#loginform input {
+    margin: 0px 4px;
+}
+
+#banner {
+    background-color: steelblue;
+    padding: 20px;
+}
+
+#banner .btext {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#banner .bbutton {
+    float: right;
+    width: 40px;
+    margin-top: -20px;
+    margin-right: 64px;
+    color: lightsteelblue;
+    background-color: black;
+    text-align: center;
+    padding: 2px;
+}
+
+#menubar li {
+    display: inline;
+    padding: 0px 4px;
+}
+
+#contentpane {
+}
+
+/* class styles */
+
+.cleanframe {
+    margin: 8px;
+    padding: 8px;
+    border: steelblue 1px solid;
+}
+
+/* element styles */
+
+table {
+    font-size: 1em;
+    width: 100%;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    border: black 1px solid;
+}
+
+th, td {
+    margin: 0px;
+    padding: 1px;
+    border: none;
+    text-align: left;
+}
+

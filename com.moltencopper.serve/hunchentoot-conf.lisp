@@ -1,0 +1,15 @@
+(in-package :com.moltencopper.serve)
+
+(defparameter *mocu-server* nil)
+(defparameter +server-port+ 8000)
+(defparameter +url-login+ "/login")
+(defparameter +url-logout+ "/logout")
+(defparameter +url-users+ "/users")
+(defparameter +url-z+ "/z")
+(defparameter +url-y+ "/y")
+
+;(setf *catch-errors-p* nil)
+;(setf *show-lisp-errors-p* t)
+;(setf *show-lisp-backtraces-p* t)
+(setf *log-lisp-backtraces-p* t)
+(setf *show-access-log-messages* nil)

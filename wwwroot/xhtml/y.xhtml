@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
+<html xmlns="http://www.w3w.org/1999/xhtml" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <link type="text/css" href="/style/main.css" rel="stylesheet" />
+    <script type="text/javascript" src="/js/lib.js"></script>
+    <title>Y Page</title>
+  </head>
+
+  <body>
+    <div id="banner">
+      <span class="bbutton"><a href="#">Login</a></span>
+      <span class="btext">Molten Copper</span>
+    </div>
+    <h1>Here is some cool stuff.</h1>
+    <h2><!-- tmpl_var a --></h2>
+    <table border=1>
+      <!-- tmpl_loop rows -->
+      <tr>
+	<!-- tmpl_loop cols -->
+	<!-- tmpl_if testing -->
+	<td>Test data here</td>
+	<!-- tmpl_else -->
+	<td><!-- tmpl_var content --></td>
+	<!-- /tmpl_if -->
+	<!-- /tmpl_loop -->
+      </tr>
+      <!-- /tmpl_loop -->
+    </table>
+  </body>
+
+</html>
